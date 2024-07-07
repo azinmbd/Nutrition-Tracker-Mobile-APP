@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <!-- Add other style attributes as needed -->
+    </style>
+
+    <style name="AppBottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconTint">@color/accentColor</item>
+        <item name="itemTextColor">@color/accentColor</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+    </style>
+</resources>
